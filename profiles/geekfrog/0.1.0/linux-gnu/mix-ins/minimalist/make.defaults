@@ -9,10 +9,10 @@
 
 
 USE="pppd gpm ncurses bash-completion
-ipv6 curl rpc
+ipv6 curl rpc socks5
 git -mercurial -subversion -cvs -bazzar -darcs
 alsa -pulseaudio
 X xft -gtk -gtk3 -qt3support -qt4 -qt5 -pango
 examples
-threads -dbus -sendmail -vim-syntax -kerberos
+threads -dbus -sendmail -vim-syntax -kerberos -joystick -chm -xemacs
 "
