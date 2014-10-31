@@ -1,0 +1,12 @@
+USE="bash-completion"						# Better bash.
+
+USE="$USE rubytests"						# Ruby test.
+
+USE="$USE examples"						# I want to read more.
+
+USE="$USE -vim -vim-syntax"					# Don't want to use vim.
+
+USE="$USE emacs -xemacs"					# Use emacs.
+
+USE="$USE git -mercurial -subversion -cvs -bazzar -darcs"	# Git is awesome. Others suck.
+
