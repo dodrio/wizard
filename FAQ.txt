@@ -1,0 +1,3 @@
+1. How to generate "Manifest" for specified ebuild ?
+
+    ebuild <ebuild name>.ebuild manifest
