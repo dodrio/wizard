@@ -1,3 +1,5 @@
+# required by docker
 sys-fs/lvm2 thin
+
 app-emulation/docker contrib device-mapper aufs btrfs doc lxc
 app-emulation/docker-bin contrib device-mapper aufs btrfs doc lxc
