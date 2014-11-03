@@ -1,0 +1,2 @@
+# If you emrege net-proxy/privoxy without threads USE flag, the privoxy will be very slow.
+net-proxy/privoxy zlib threads
