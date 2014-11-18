@@ -1,1 +1,1 @@
-USE="curl rpc socks5"
+USE="curl rpc socks5 -ipv6"
