@@ -4,3 +4,4 @@ app-admin/supervisor doc
 sys-apps/portage doc
 
 # To do: add python doc
+#dev-lang/python doc

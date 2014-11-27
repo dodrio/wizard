@@ -1,1 +1,1 @@
-USE="xft xinerama"
+USE="xft xinerama -xscreensaver -gtk3"
