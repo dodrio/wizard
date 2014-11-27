@@ -1,2 +1,2 @@
-app-i18n/fcitx autostart -enchant -icu -nls -table -xml gtk gtk3
+app-i18n/fcitx autostart -enchant -icu -nls -table -xml gtk
 
