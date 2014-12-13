@@ -1,0 +1,3 @@
+# Originally cairo only have this USE flag: X glib svg
+# But qtile need X glib opengl svg xcb, so I have to write following.
+x11-libs/cairo X glib opengl svg xcb
