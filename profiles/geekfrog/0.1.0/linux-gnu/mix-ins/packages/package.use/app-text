@@ -1,0 +1,4 @@
+# required by dev-texlive/texlive-xetex-2014
+# required by texlive-xetex (argument)
+>=app-text/texlive-core-2014-r1 xetex
+
