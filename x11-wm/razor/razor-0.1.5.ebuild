@@ -4,7 +4,7 @@ EAPI=4
 
 inherit eutils savedconfig toolchain-funcs
 
-DESCRIPTION="a dynamic window manager forked from dwm"
+DESCRIPTION="A dynamic window manager forked from dwm"
 HOMEPAGE="https://github.com/geekfrog"
 GITHUB_USER="geekfrog"
 SRC_URI="https://github.com/${GITHUB_USER}/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
@@ -16,6 +16,7 @@ IUSE="xinerama"
 
 DEPEND="
 	x11-libs/libX11
+	media-libs/freetype
 	xinerama? (
 		x11-proto/xineramaproto
 		x11-libs/libXinerama
