@@ -1,6 +1,0 @@
-# Block all packages related to systemd
-sys-apps/systemd
-
-# Don't worry about masking udev, it will automatically be replaced by eudev
-# eudev is the systemd-free fork of udev.
-sys-fs/udev
