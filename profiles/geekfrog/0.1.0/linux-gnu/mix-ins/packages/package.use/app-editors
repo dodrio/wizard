@@ -1,1 +1,1 @@
-app-editors/emacs acl gpm inotify zlib X xft -jpeg -png -tiff -xpm -Xaw3d -athena -games -gconf -gfile -gnutls -gsettings -gtk -gtk3 -gzip-el -hesiod -imagemagick -kerberos -libxml2 -livecd -m17n-lib -motif -pax_kernel -sound -source -svg -toolkit-scroll-bars -wide-int -X -alsa -dbus -gif
+app-editors/emacs acl gpm inotify zlib X xft -jpeg -png -tiff -xpm -Xaw3d -athena -games -gconf -gfile -gnutls -gsettings -gtk -gtk3 -gzip-el -hesiod -imagemagick -kerberos -libxml2 -livecd -m17n-lib -motif -pax_kernel -sound -source -svg -toolkit-scroll-bars -wide-int -alsa -dbus -gif
