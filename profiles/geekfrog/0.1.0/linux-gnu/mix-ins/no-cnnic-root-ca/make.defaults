@@ -1,0 +1,2 @@
+# Why I do this, please read: http://program-think.blogspot.com/2010/02/about-cnnic.html
+INSTALL_MASK="/etc/ssl/certs/CNNIC_ROOT.pem /usr/share/ca-certificates/mozilla/CNNIC_ROOT.crt"
