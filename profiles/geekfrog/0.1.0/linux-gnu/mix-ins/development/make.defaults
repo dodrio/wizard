@@ -1,7 +1,5 @@
 USE="bash-completion"						# Better bash.
 
-USE="$USE rubytests"						# Ruby test.
-
 USE="$USE examples"						# I want to read more.
 
 USE="$USE -vim -vim-syntax"					# Don't want to use vim.
