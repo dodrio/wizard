@@ -16,6 +16,7 @@ mix-ins		geekfrog/0.1.0/linux-gnu/mix-ins/laptop			testing
 mix-ins		geekfrog/0.1.0/linux-gnu/mix-ins/net-extras		testing
 mix-ins		geekfrog/0.1.0/linux-gnu/mix-ins/no-cnnic-root-ca	testing
 mix-ins		geekfrog/0.1.0/linux-gnu/mix-ins/no-qt			testing
+mix-ins		geekfrog/0.1.0/linux-gnu/mix-ins/non-free		testing
 mix-ins		geekfrog/0.1.0/linux-gnu/mix-ins/development		testing
 mix-ins		geekfrog/0.1.0/linux-gnu/mix-ins/packages		testing
 mix-ins		geekfrog/0.1.0/linux-gnu/mix-ins/X-extras		testing
