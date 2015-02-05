@@ -13,6 +13,7 @@
 # Type		Name							Status		NoMix
 mix-ins		wizard/0.1.0/linux-gnu/mix-ins/emacs-only		testing
 mix-ins		wizard/0.1.0/linux-gnu/mix-ins/git-only			testing
+mix-ins		wizard/0.1.0/linux-gnu/mix-ins/example			testing
 mix-ins		wizard/0.1.0/linux-gnu/mix-ins/doc			testing
 mix-ins		wizard/0.1.0/linux-gnu/mix-ins/laptop			testing
 mix-ins		wizard/0.1.0/linux-gnu/mix-ins/no-cnnic-root-ca		testing
