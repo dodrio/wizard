@@ -1,1 +1,1 @@
-USE="git -mercurial -subversion -cvs -bazzar -darcs"
+USE="-git -mercurial -subversion -cvs -bazzar -darcs"
