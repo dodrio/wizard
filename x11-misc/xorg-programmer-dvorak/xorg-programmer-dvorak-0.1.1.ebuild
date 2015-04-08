@@ -2,7 +2,7 @@
 
 EAPI=4
 
-DESCRIPTION="Programmer Dvorak for X."
+DESCRIPTION="Programmer Dvorak configuration for X."
 HOMEPAGE=""
 GITHUB_USER="geekfrog"
 SRC_URI="https://github.com/${GITHUB_USER}/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
@@ -18,6 +18,6 @@ src_install() {
 	SRC_DIR="${S}"
 	install -d "${DEST_DIR}"
 	install -m644 \
-			"${SRC_DIR}/10-keyboard.conf" \
+			"${SRC_DIR}/10keyboard.conf" \
 			"${DEST_DIR}"
 }
