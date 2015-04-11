@@ -1,2 +1,0 @@
-app-i18n/fcitx -autostart cairo pango gtk dbus -enchant -icu -nls -table -xml
-
