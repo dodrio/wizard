@@ -1,2 +1,0 @@
-USE="-emacs -xemacs"                                # Use emacs.
-USE="$USE -vim -vim-syntax -fakevim"				# Don't want to use vim related things.
