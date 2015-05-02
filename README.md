@@ -10,4 +10,4 @@
 
 Description: A Funtoo Overlay called "wizard"
 
-Author: Merlin Dou
+Author: m31271n
