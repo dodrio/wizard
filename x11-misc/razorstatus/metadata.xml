@@ -3,7 +3,7 @@
 <pkgmetadata>
   <herd>funtoo</herd>
   <maintainer>
-    <email>doumerlin@gmail.com</email>
+    <email>m31271n@gmail.com</email>
   </maintainer>
   <use>
   <flag name="battery">enable battery support</flag>
