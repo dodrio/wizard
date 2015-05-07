@@ -5,8 +5,8 @@ EAPI=5
 inherit eutils toolchain-funcs
 
 DESCRIPTION="status bar for razor windows manager"
-HOMEPAGE="https://github.com/geekfrog"
-GITHUB_USER="geekfrog"
+HOMEPAGE="https://github.com/wizalado"
+GITHUB_USER="wizalado"
 SRC_URI="https://github.com/${GITHUB_USER}/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="MIT"
@@ -32,7 +32,7 @@ src_prepare() {
 		-e 's|@${CC}|$(CC)|g' \
 		Makefile || die
 
-	use battery && epatch "${FILESDIR}"/${P}-battery.diff
+	use battery && epatch ${WORKDIR}/${P}/patch/battery.diff
 
 	epatch_user
 }
