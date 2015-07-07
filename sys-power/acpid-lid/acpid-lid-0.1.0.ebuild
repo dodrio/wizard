@@ -16,6 +16,6 @@ src_install() {
 	insinto /etc/acpi/events
 	doins events/*
 
-	insinto /etc/acpi/actions
-	doins actions/*
+	exeinto /etc/acpi/actions
+	doexe actions/*
 }
