@@ -1,5 +1,5 @@
 # Distributed under the terms of the GNU General Public License v2
-# Copy from https://github.com/tianon/docker-overlay
+
 EAPI=5
 
 DESCRIPTION="Compose is a tool for defining and running complex applications with Docker"
@@ -15,8 +15,9 @@ SLOT="0"
 KEYWORDS="~amd64"
 IUSE=""
 
-DEPEND=""
-RDEPEND="${DEPEND}"
+RDEPEND="sys-libs/glibc
+sys-libs/zlib
+"
 
 RESTRICT="installsources strip"
 
