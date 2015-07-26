@@ -5,13 +5,16 @@ EAPI=5
 inherit eutils mount-boot
 
 DESCRIPTION="Precompiled Kernel (Kernel Ready-to-Eat [KRE])"
+EXTRAVERSION="-1~exp1"
 HOMEPAGE="http://github.com/wizalado"
-SRC_URI="http://cloud.stenote.com/funtoo/kernel/${PN}-${PV}.tar.xz"
+SRC_URI="http://cloud.stenote.com/funtoo/kernel/${PN}-${PV}${EXTRAVERSION}.tar.xz"
 
 RESTRICT="mirror strip"
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="-* ~amd64"
+
+S=${S}${EXTRAVERSION}
 
 src_compile()
 {
@@ -19,20 +22,21 @@ src_compile()
 	unset ARCH && return
 }
 
+
 src_install()
 {
 	# Install Kernel
 	insinto /boot
-	newins ${S}/kernel/System.map-curse-x86_64-${PV} \
-		   System.map-curse-x86_64-${PV}
-	newins ${S}/kernel/config-curse-x86_64-${PV} \
-		   config-curse-x86_64-${PV}
-	newins ${S}/kernel/initramfs-curse-x86_64-${PV} \
-		   initramfs-curse-x86_64-${PV}
-	newins ${S}/kernel/kernel-curse-x86_64-${PV} \
-		   kernel-curse-x86_64-${PV}
+	newins ${S}/kernel/System.map-curse-x86_64-${PV}${EXTRAVERSION} \
+		   System.map-curse-x86_64-${PV}${EXTRAVERSION}
+	newins ${S}/kernel/config-curse-x86_64-${PV}${EXTRAVERSION} \
+		   config-curse-x86_64-${PV}${EXTRAVERSION}
+	newins ${S}/kernel/initramfs-curse-x86_64-${PV}${EXTRAVERSION} \
+		   initramfs-curse-x86_64-${PV}${EXTRAVERSION}
+	newins ${S}/kernel/kernel-curse-x86_64-${PV}${EXTRAVERSION} \
+		   kernel-curse-x86_64-${PV}${EXTRAVERSION}
 
 	# Install Modules
 	dodir /lib/modules
-	cp -r ${S}/modules/${PV} ${D}/lib/modules
+	cp -r ${S}/modules/${PV}${EXTRAVERSION} ${D}/lib/modules
 }
