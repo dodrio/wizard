@@ -12,7 +12,6 @@ SRC_URI="https://github.com/${GITHUB_USER}/${PN}/archive/${PV}.tar.gz -> ${P}.ta
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64"
-IUSE="battery"
 
 DEPEND="
 	x11-libs/libX11
@@ -31,10 +30,6 @@ src_prepare() {
 		-e '/@echo CC/d' \
 		-e 's|@${CC}|$(CC)|g' \
 		Makefile || die
-
-	use battery && epatch ${WORKDIR}/${P}/patch/battery.diff
-
-	epatch_user
 }
 
 src_compile() {
