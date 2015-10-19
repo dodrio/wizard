@@ -9,7 +9,7 @@ HOMEPAGE="https://github.com/wizalado/Darklight"
 
 SRC_URI=""
 EGIT_REPO_URI="https://github.com/wizalado/${PN}.git"
-EGIT_COMMIT="a341fdb8d303cbc0b071ad43364c352e53571169"
+EGIT_COMMIT="3cc3211210dc721cf6569e7de2f01abbd2ed0dee"
 KEYWORDS="~amd64"
 
 LICENSE="MIT"
