@@ -13,7 +13,10 @@ LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64"
 
-DEPEND=""
+DEPEND="
+	media-libs/imlib2
+	x11-libs/libXinerama
+"
 RDEPEND="${DEPEND}"
 
 src_compile() {
