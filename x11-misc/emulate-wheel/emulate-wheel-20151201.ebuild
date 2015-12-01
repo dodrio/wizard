@@ -4,12 +4,12 @@ EAPI=5
 
 inherit git-r3
 
-DESCRIPTION="X11 configuration for Thinkpad trackpoint professional."
-HOMEPAGE="https://github.com/wizalado/trackpoint-pro"
+DESCRIPTION="Hold down the middle key(or a real wheel) and move forward and back or left to right to emulate the wheel behavior."
+HOMEPAGE="https://github.com/wizalado/emulate-wheel"
 
 SRC_URI=""
 EGIT_REPO_URI="https://github.com/wizalado/${PN}.git"
-EGIT_COMMIT="06ab5f6823536078ebf85be79d8b380e4d6a09c9"
+EGIT_COMMIT="4b965491596bebbf1b6fe4d3b1c9a406ccb103cf"
 KEYWORDS="~amd64"
 
 LICENSE="MIT"
@@ -21,5 +21,5 @@ RDEPEND="${DEPEND}"
 
 src_install() {
 	insinto /etc/X11/xorg.conf.d/
-	doins 11trackpoint.conf
+	doins 11emulate_wheel.conf
 }
