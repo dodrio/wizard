@@ -37,5 +37,5 @@ src_install() {
 	insinto /opt/${PN}/
 	doins -r completions share
 
-	dosym /opt/${PN}/libexec/anyenv /opt/bin/anyenv
+	dosym /opt/${PN}/libexec/anyenv /usr/bin/anyenv
 }
