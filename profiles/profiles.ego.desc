@@ -1,6 +1,0 @@
-{
-        "mix-ins" : "wizard/0.2.0/linux-gnu/mix-ins",
-        "flavor" : "wizard/0.2.0/linux-gnu/flavor",
-        "arch" : "wizard/0.2.0/linux-gnu/arch",
-        "build" : "wizard/0.2.0/linux-gnu/build"
-}

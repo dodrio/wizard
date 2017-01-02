@@ -2,11 +2,11 @@
 
 EAPI=4
 
-inherit eutils toolchain-funcs
+inherit eutils toolchain-funcs savedconfig
 
 DESCRIPTION="A dynamic window manager forked from dwm"
-HOMEPAGE="https://github.com/wizalado"
-GITHUB_USER="wizalado"
+HOMEPAGE="https://github.com/m31271n/razor"
+GITHUB_USER="m31271n"
 SRC_URI="https://github.com/${GITHUB_USER}/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="MIT"
@@ -54,7 +54,7 @@ src_compile() {
 }
 
 src_install() {
-	emake DESTDIR="${D}" PREFIX="${EPREFIX}/usr" install
+	emake PREFIX="${D}/usr" install
 
 	dodoc README.md
 }
@@ -62,11 +62,6 @@ src_install() {
 pkg_postinst() {
 	einfo "This ebuild has support for user defined configs"
 	einfo "Please read this ebuild for more details and re-emerge as needed"
-	einfo "if you want to add or remove functionality for ${PN}"
-	if ! has_version x11-misc/razormenu; then
-		elog "Installing ${PN} without x11-misc/razormenu"
-		einfo "To have a menu you can install x11-misc/razormenu"
-	fi
 	einfo "You can custom status bar by usimg xsetroot:"
 	einfo "xsetroot -name \"\`date\` \`uptime | sed 's/.*,//'\`\""
 }

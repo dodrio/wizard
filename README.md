@@ -8,5 +8,5 @@
     #  #  #   #   #        #     #  #    #   #     #
      ## ##   ###  #######  #     #  #     #  ######
 
-* Description: A Funtoo Overlay called "wizard"
+* Description: A Gentoo Overlay called "wizard"
 * Author: m31271n
