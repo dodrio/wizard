@@ -4,7 +4,7 @@ EAPI=4
 
 DESCRIPTION="dircolors-setting"
 HOMEPAGE=""
-GITHUB_USER="wizalado"
+GITHUB_USER="m31271n"
 SRC_URI="https://github.com/${GITHUB_USER}/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="MIT"
