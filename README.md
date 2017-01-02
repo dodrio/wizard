@@ -1,12 +1,3 @@
 # Wizard
 
-    #     #  ###  #######     #     ######   ######
-    #  #  #   #        #     # #    #     #  #     #
-    #  #  #   #       #     #   #   #     #  #     #
-    #  #  #   #     #      #     #  ######   #     #
-    #  #  #   #    #       #######  #   #    #     #
-    #  #  #   #   #        #     #  #    #   #     #
-     ## ##   ###  #######  #     #  #     #  ######
-
-* Description: A Gentoo Overlay called "wizard"
-* Author: m31271n
+A Gentoo Overlay maintained by m31271n
