@@ -1,2 +1,2 @@
-Copyright 2014 Merlin Dou
+Copyright 2017 m31271n
 Distributed under the terms of the GNU General Public License version 2.
