@@ -30,7 +30,7 @@ src_compile() {
 }
 
 src_install() {
-	emake DESTDIR="${D}" PREFIX="${EPREFIX}/usr" install
+	emake DESTDIR="${D}/usr" install
 	doheader src/drafter.h
 	dolib.so build/out/Release/lib.target/libdrafter.so
 	dodoc LICENSE
