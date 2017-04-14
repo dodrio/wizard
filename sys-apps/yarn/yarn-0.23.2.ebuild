@@ -22,5 +22,6 @@ src_install() {
 	insinto "${install_dir}"
 	doins -r .
 	dosym "../$(get_libdir)/node_modules/yarn/bin/yarn.js" "/usr/bin/yarn"
+	fperms a+x "${install_dir}/bin/node-gyp-bin/node-gyp"
 	fperms a+x "${install_dir}/bin/yarn.js"
 }
