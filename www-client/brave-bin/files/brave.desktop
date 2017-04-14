@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=brave
+Comment=Brave laptop and desktop browser
+GenericName=brave
+Exec=brave %U
+Icon=brave
+Type=Application
+StartupNotify=true
+Categories=Network;WebBrowser;
+MimeType=text/plain;
