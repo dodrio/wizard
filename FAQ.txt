@@ -1,2 +1,4 @@
+FAQ
+
 Q1: How to generate "Manifest" for specified ebuild ?
-A1: Run command `ebuild <ebuild name>.ebuild manifest`.
+A1: Run command `ebuild <ebuild name>.ebuild manifest`. Or, `repoman manifest`.
