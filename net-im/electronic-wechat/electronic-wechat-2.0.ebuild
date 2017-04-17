@@ -13,7 +13,7 @@ SRC_URI="${SRC_BASE}/linux-x64.tar.gz -> ${P}-amd64.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64"
+KEYWORDS="~amd64"
 IUSE=""
 RESTRICT="mirror strip"
 

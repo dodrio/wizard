@@ -6,7 +6,7 @@ DESCRIPTION="Streaming torrent app for Linux (BitTorrent/WebTorrent)"
 HOMEPAGE="https://webtorrent.io/desktop"
 SRC_URI="https://github.com/webtorrent/webtorrent-desktop/releases/download/v0.18.0/WebTorrent-v${PV}-linux.zip"
 
-KEYWORDS="amd64"
+KEYWORDS="~amd64"
 LICENSE="MPL-2.0"
 SLOT="0"
 IUSE=""

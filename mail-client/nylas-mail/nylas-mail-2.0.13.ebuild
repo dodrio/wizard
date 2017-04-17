@@ -10,7 +10,7 @@ SRC_URI="https://github.com/nylas/nylas-mail/releases/download/${PV}/NylasMail.d
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="amd64"
+KEYWORDS="~amd64"
 
 DEPEND="
 	gnome-base/libgnome-keyring

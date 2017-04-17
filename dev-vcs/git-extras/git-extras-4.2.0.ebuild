@@ -8,7 +8,7 @@ EGIT_REPO_URI="https://github.com/tj/git-extras.git"
 DESCRIPTION="Little git extras"
 HOMEPAGE="https://github.com/tj/git-extras"
 
-KEYWORDS="amd64"
+KEYWORDS="~amd64"
 
 LICENSE="MIT"
 SLOT="0"

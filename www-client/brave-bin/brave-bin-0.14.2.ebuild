@@ -6,8 +6,8 @@ MY_PN=${PN/-bin/}
 DESCRIPTION="Brave web browser for laptops and desktops (binary)"
 HOMEPAGE="https://www.brave.com"
 SRC_URI="https://github.com/${MY_PN}/browser-laptop/releases/download/v0.14.2dev-RC1/Brave.tar.bz2"
-KEYWORDS="amd64"
 
+KEYWORDS="~amd64"
 LICENSE="MPL-2.0"
 SLOT="0"
 IUSE=""
