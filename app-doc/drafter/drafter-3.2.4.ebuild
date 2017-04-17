@@ -10,7 +10,7 @@ SRC_URI="https://github.com/apiaryio/drafter/releases/download/v${PV}/${PN}-v${P
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64"
+KEYWORDS="~amd64"
 
 RDEPEND="sys-devel/gcc"
 DEPEND="
