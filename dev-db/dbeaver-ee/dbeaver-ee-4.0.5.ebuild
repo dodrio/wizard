@@ -25,4 +25,3 @@ src_install() {
 	doexe dbeaver
 	dosym /opt/${PN}/dbeaver /usr/bin/${PN}
 }
-
