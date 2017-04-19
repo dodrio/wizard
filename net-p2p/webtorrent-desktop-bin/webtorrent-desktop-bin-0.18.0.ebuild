@@ -1,6 +1,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
+MY_PN=${PN/-bin/}
 
 DESCRIPTION="Streaming torrent app for Linux (BitTorrent/WebTorrent)"
 HOMEPAGE="https://webtorrent.io/desktop"
@@ -14,15 +15,11 @@ IUSE=""
 S="${WORKDIR}/WebTorrent-linux-x64"
 
 src_install() {
-	insinto /usr/share/${PN}
-	doins version *.pak *.bin *.dat
-	doins *.so
+	insinto /opt/${MY_PN}
+	doins -r *
 
-	doins -r resources locales
-
-	exeinto /usr/share/${PN}
+	exeinto /opt/${MY_PN}
 	doexe WebTorrent
-	dosym /usr/share/${PN}/WebTorrent /usr/bin/${PN}
 
-	dodoc LICENSE*
+	dosym /opt/${MY_PN}/WebTorrent /usr/bin/${MY_PN}
 }
