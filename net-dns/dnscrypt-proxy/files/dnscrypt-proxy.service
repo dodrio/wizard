@@ -5,7 +5,6 @@ After=network.target
 [Service]
 Type=simple
 PIDFile=/var/run/dnscrypt-proxy.pid
-EnvironmentFile=/etc/conf.d/dnscrypt-proxy
 ExecStartPre=/bin/rm -f /var/run/dnscrypt-proxy.pid
 ExecStart=/usr/sbin/dnscrypt-proxy /etc/dnscrypt-proxy.conf
 Restart=always
