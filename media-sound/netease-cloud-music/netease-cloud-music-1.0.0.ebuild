@@ -15,7 +15,7 @@ x86? ( ${COMMON_URI}/${PN}_${PV}_i386_ubuntu16.04.deb )
 
 LICENSE=""
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="~amd64"
 IUSE="gtkstyle hidpi"
 RESTRICT="mirror strip"
 
