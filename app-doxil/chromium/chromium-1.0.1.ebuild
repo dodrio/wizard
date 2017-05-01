@@ -13,7 +13,7 @@ KEYWORDS="~amd64"
 RDEPEND="app-emulation/docker"
 
 src_prepare() {
-	sed -i -e 's/\/path\/to/\/usr\/bin/g' ${WORKDIR}/chromium.desktop.example
+	sed -i -e 's/\/path\/to/\/usr\/bin/g' ${S}/chromium.desktop.example
 }
 
 src_install() {
