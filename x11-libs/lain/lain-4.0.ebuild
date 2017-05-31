@@ -1,10 +1,12 @@
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=4
+inherit eutils git-2
 
 DESCRIPTION="Awesome WM complements"
-HOMEPAGE="https://github.com/m31271n/lain"
-SRC_URI="https://github.com/m31271n/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
+HOMEPAGE="https://github.com/copycat-killer/lain"
+EGIT_REPO_URI="https://github.com/copycat-killer/lain.git"
+EGIT_COMMIT="430e70670c3f0a38c1c300273784096aeb8728cd"
 
 LICENSE="GPL-2"
 SLOT="0"
