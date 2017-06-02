@@ -2,8 +2,6 @@
 
 EAPI=4
 
-inherit eutils toolchain-funcs
-
 DESCRIPTION="Lightweight bash package manager"
 HOMEPAGE="https://github.com/bpkg/bpkg"
 SRC_URI="https://github.com/bpkg/bpkg/archive/${PV}.tar.gz -> ${P}.tar.gz"
