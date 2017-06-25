@@ -42,7 +42,9 @@ src_configure() {
 src_install() {
 	default
 
-	systemd_dounit "${FILESDIR}"/${PN}.service
+        dodir /etc/dnscrypt-proxy
+        mv ${D}/etc/dnscrypt-proxy.conf ${D}/etc/dnscrypt-proxy/sample.conf
+	systemd_dounit "${FILESDIR}"/${PN}@.service
 }
 
 pkg_postinst() {
