@@ -19,11 +19,17 @@ DEPEND="${RDEPEND}"
 S="${WORKDIR}/Brave-linux-x64"
 
 src_install() {
-        insinto /opt/${MY_PN}
-        doins -r *
+		insinto /usr/share/applications
+		doins ${FILESDIR}/${MY_PN}.desktop
 
-        exeinto /opt/${MY_PN}
-        doexe brave
+		insinto /usr/share/pixmaps
+		doins ${FILESDIR}/${MY_PN}.png
 
-        dosym /opt/${MY_PN}/brave /usr/bin/${MY_PN}
+		insinto /opt/${MY_PN}
+		doins -r *
+
+		exeinto /opt/${MY_PN}
+		doexe brave
+
+		dosym /opt/${MY_PN}/brave /usr/bin/${MY_PN}
 }
