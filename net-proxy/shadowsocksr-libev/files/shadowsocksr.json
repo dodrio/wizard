@@ -1,0 +1,11 @@
+{
+  "server":"server ip",
+  "server_port":8388,
+  "local_port":1080,
+  "password":"password",
+  "timeout":600,
+  "method":"aes-256-ctr",
+  "protocol":"auth_chain_a",
+  "obfs":"tls1.2_ticket_auth",
+  "obfsparam":""
+}

@@ -1,0 +1,11 @@
+[Unit]
+Description=Shadowsocksr-Libev Server Service for %I
+After=network.target
+
+[Service]
+Type=simple
+CapabilityBoundingSet=CAP_NET_BIND_SERVICE
+ExecStart=/usr/bin/ssr-server -c /etc/shadowsocksr-libev/%i.json
+
+[Install]
+WantedBy=multi-user.target
