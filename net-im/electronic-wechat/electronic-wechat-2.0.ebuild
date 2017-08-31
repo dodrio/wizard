@@ -18,7 +18,7 @@ IUSE=""
 RESTRICT="mirror strip"
 
 DEPEND=""
-DEPEND="gnome-base/gconf
+RDEPEND="gnome-base/gconf
     x11-libs/gtk+:2
     virtual/udev
     dev-libs/libgcrypt
