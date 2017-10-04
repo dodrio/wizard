@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+<maintainer type="person">
+<email>m31271n@gmail.com</email>
+</maintainer>
+<longdescription lang="en">
+A powerful GUI platform to make your API development faster and easier, from building API requests through testing, documentation and sharing
+</longdescription>
+</pkgmetadata>
