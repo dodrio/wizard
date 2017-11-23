@@ -7,7 +7,7 @@ A Gentoo Overlay maintained by ordinary people.
 # Current Status
 **Maintainers Wanted.**
 
-I haven't maintained this module in a while.
+I haven't maintained this overlay in a while.
 
 If anyone is interested in being an maintainer, I'm happy to give you access to this repo.
 
