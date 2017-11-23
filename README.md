@@ -1,6 +1,6 @@
 # Wizard
 
-A Gentoo Overlay maintained by m31271n.
+A Gentoo Overlay maintained by ordinary people.
 
 > Supported by [Layman](https://wiki.gentoo.org/wiki/Layman).
 
